@@ -1,4 +1,4 @@
-## Belajar Structured Query Language (SQL)
+# Belajar Structured Query Language (SQL)
 
 Pada kali ini, kita akan belajar menggunakan query SQL berbasis Command Line Interface (CLI) menggunakan aplikasi Laragon dan XAMPP. Agar query tidak error, jangan lupa untuk mengaktifkan database MySQL di control panel aplikasi Laragon atau XAMPP.
 
