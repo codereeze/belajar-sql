@@ -1,6 +1,6 @@
 # Belajar Structured Query Language (SQL)
 
-Belajar menggunakan query SQL berbasis Command Line Interface (CLI) menggunakan aplikasi Laragon dan XAMPP. Agar query tidak error, jangan lupa untuk mengaktifkan database MySQL di control panel aplikasi Laragon atau XAMPP.
+Belajar menggunakan query SQL berbasis Command Line Interface (CLI) menggunakan database MySQL. Agar query tidak error, jangan lupa untuk mengaktifkan database MySQL di control panel aplikasi Laragon atau XAMPP.
 
 ## Daftar Isi
 
@@ -13,29 +13,7 @@ Belajar menggunakan query SQL berbasis Command Line Interface (CLI) menggunakan 
 - <a href="/007_TRIGGER/README.md">TRIGGER</a>
 - <a href="/008_VIEWS/README.md">VIEWS</a>
 
-## Persiapan
-
-### Via Laragon
-
-Buka terminal atau CMD dan ketikan perintah:
-
-```bash
-cd C:\laragon\bin\mysql\mysql-8.0.30-winx64
-```
-
-`mysql-8.0.30-winx64` adalah direktori versi MySQL saya, sesuaikanlah dengan milik kalian.
-
-Klik enter, kemudian masukkan perintah
-
-```bash
-mysql -u root -p
-```
-
-Klik enter, setelah itu akan di mintai password, masukkan password jika DB MySQL kalian di password, jika tidak langsung klik enter. Jika tidak ada error maka hasilnya akan seperti dibawah ini.
-
-<img src="/assets/img/laragon_success.png">
-
-### Via XAMPP
+## Get Started
 
 Buka terminal atau CMD dan ketikan perintah:
 
@@ -43,7 +21,15 @@ Buka terminal atau CMD dan ketikan perintah:
 cd C:\xampp\mysql\bin
 ```
 
-Klik enter, kemudian masukkan perintah
+Jika menggunakan Laragon, bisa gunakan perintah:
+
+```bash
+cd C:\laragon\bin\mysql\mysql-8.0.30-winx64
+```
+
+`mysql-8.0.30-winx64` adalah direktori versi MySQL saya di Laragon, sesuaikanlah dengan milik kalian.
+
+Klik enter, kemudian masukkan perintah:
 
 ```bash
 mysql -u root -p
@@ -51,4 +37,4 @@ mysql -u root -p
 
 Klik enter, setelah itu akan di mintai password, masukkan password jika DB MySQL kalian di password, jika tidak langsung klik enter. Jika tidak ada error maka hasilnya akan seperti dibawah ini.
 
-<img src="/assets/img/xampp_success.png">
+<img src="/assets/img/mysql_success.png">
