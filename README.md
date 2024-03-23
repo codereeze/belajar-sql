@@ -33,7 +33,7 @@ mysql -u root -p
 
 Klik enter, setelah itu akan di mintai password, masukkan password jika DB MySQL kalian di password, jika tidak langsung klik enter. Jika tidak ada error maka hasilnya akan seperti dibawah ini.
 
-<img src="img/laragon_success.png">
+<img src="/assets/img/laragon_success.png">
 
 ### Via XAMPP
 
@@ -51,4 +51,4 @@ mysql -u root -p
 
 Klik enter, setelah itu akan di mintai password, masukkan password jika DB MySQL kalian di password, jika tidak langsung klik enter. Jika tidak ada error maka hasilnya akan seperti dibawah ini.
 
-<img src="img/xampp_success.png">
+<img src="/assets/img/xampp_success.png">
