@@ -1,6 +1,6 @@
 # Data Manipulation Language (DML)
 
-Data Manipulation Language (DML) adalah bagian dari SQL (Structured Query Language) yang digunakan untuk memanipulasi data yang tersimpan dalam basis data. DML digunakan untuk menyisipkan, mengubah, dan menghapus data tabel di dalam database.
+Data Manipulation Language (DML) adalah bagian dari SQL (Structured Query Language) yang digunakan untuk memanipulasi data yang tersimpan dalam basis data. DML digunakan untuk menyisipkan, mengubah, dan menghapus data di dalam tabel database.
 
 ## Daftar Isi
 
