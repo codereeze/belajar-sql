@@ -3,22 +3,22 @@
 - #### Comment: Table
 
 ```bash
-COMMENT ON TABLE nama_tabel IS 'Ini adalah tabel untuk menyimpan data transaksi';
+ALTER TABLE nama_tabel COMMENT = 'Ini adalah table untuk menyimpan data user';
 ```
 
 - #### Comment: Column
 
 ```bash
-COMMENT ON COLUMN nama_tabel.nama_kolom IS 'Kolom ini menyimpan kode transaksi pembayaran';
+ALTER TABLE nama_tabel MODIFY COLUMN nama_kolom tipe_data_kolom COMMENT 'Kolom ini menyimpan kode transaksi pembayaran';
 ```
 
 - #### Comment: Schema
 
 ```bash
-COMMENT ON SCHEMA nama_skema IS 'Skema ini digunakan untuk mengelola data transaksi';
+SELECT SCHEMA_NAME, SCHEMA_COMMENT FROM information_schema.SCHEMATA WHERE SCHEMA_NAME = 'nama_skema';
+```
+Selanjutnya:
+```bash
+UPDATE information_schema.SCHEMATA SET SCHEMA_COMMENT = 'Skema ini digunakan untuk mengelola data transaksi' WHERE SCHEMA_NAME = 'nama_skema';
 ```
 
-- #### Comment: Function
-```bash
-COMMENT ON FUNCTION nama_fungsi IS 'Fungsi ini menghitung jumlah transaksi pada hari ini';
-```

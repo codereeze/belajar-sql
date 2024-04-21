@@ -31,10 +31,16 @@ ALTER TABLE nama_tabel DROP COLUMN nama_kolom;
 ALTER TABLE nama_tabel ADD CONSTRAINT nama_constraint PRIMARY KEY (nama_kolom);
 ```
 
-- #### Alter Table: Menghapus constraint
+- #### Alter Table: Menghapus constraint (primary key)
 
 ```bash
-ALTER TABLE nama_tabel DROP CONSTRAINT nama_constraint;
+ALTER TABLE nama_tabel DROP PRIMARY KEY;
+```
+
+- #### Alter Table: Menghapus constraint (foreign key)
+
+```bash
+ALTER TABLE nama_tabel DROP FOREIGN KEY nama_constraint;
 ```
 
 - #### Alter Table: Menambah index
@@ -43,8 +49,8 @@ ALTER TABLE nama_tabel DROP CONSTRAINT nama_constraint;
 ALTER TABLE nama_tabel ADD INDEX nama_index (nama_kolom);
 ```
 
-- #### Alter Table: Menghapus index
+- #### Alter Table: Menghapus constraint (index)
 
 ```bash
-ALTER TABLE nama_tabel DROP INDEX nama_index;
+ALTER TABLE nama_tabel DROP INDEX nama_constraint;
 ```
